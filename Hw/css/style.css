@@ -1,0 +1,87 @@
+body{	
+  font-size: 16px;
+  color: #fff;
+  background-color: #7DCEA0;
+  font-family: 'Oxygen', sans-serif;
+}
+/* Main Content */
+#header-nav{
+	border-radius: 0;
+	border: 0;
+}
+#header-nav a{
+	color: #0d7c3d;
+}
+.navbar-brand{
+	padding-top: 25px;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+#logo-img{
+	margin: 10px 15px 10px 0;
+}
+#heading{
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.container{
+	width: 100%;
+}
+#Sushi, #Burger, #Pizza{
+	background-color: #fff;
+	color: #7DCEA0;
+	padding: 10px;
+	border-radius: 20px;
+	margin-bottom: 15px;
+}
+#Sushi h3, #Burger h3, #Pizza h3{
+	color: #0d7c3d;
+	text-align: center;
+	padding-bottom: 10px;
+}
+/* End Main Content */
+/* Button */
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #7DCEA0;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top:-30px;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	font-size: 1.3em;
+	color: #7DCEA0;
+	text-align: center;
+}
+#nav-list a:hover{
+	color: white;
+	background: #7DCEA0;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+/* End Button */
+/* Small Devices */	
+@media(max-width: 767px){
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{/*Name*/
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 6vw;/* 1vw= 1% od viewport width 
+}
+
+	
